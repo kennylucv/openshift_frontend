@@ -1,2 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900");
+
+body {
+    background-color: rgb(180, 250, 223);
+}
