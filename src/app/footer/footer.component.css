@@ -1,0 +1,21 @@
+.container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.footer-bottom {
+    background: black;
+    
+    width: 100%;
+}
+
+.copyright {
+    text-align: left;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.copyright p  {
+    margin-bottom: 0;
+}

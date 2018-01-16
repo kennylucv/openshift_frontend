@@ -1,0 +1,63 @@
+.header {
+    color: #0056b3;
+    font-family: "Muli", sans-serif;
+    font-size: 14px;
+}
+
+.header-container {
+    padding-top: 0.5em;
+    margin: 0 auto;
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+}
+.navbar {
+    li {
+        padding-left: 5px;
+        padding-right: 5px;
+        a {
+            color: #0056b3 !important;
+            padding: 0 5px;
+        }
+    }
+}
+
+
+.logo {
+    float: left;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.right-nav {
+    float: right;
+
+    li {
+        float: left;
+    }
+}
+
+.left-nav {
+    float: left;
+    padding-left: 8em;
+    
+    li {
+        float: left;
+    }
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
