@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiURL: "http://backend-dev-env.127.0.0.1.nip.io"
+  apiURL: "http://backend-prod-env.52.233.32.176.nip.io"
 };
