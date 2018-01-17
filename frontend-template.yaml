@@ -19,9 +19,8 @@ parameters:
   name: APPLICATION_HOSTNAME
   value: ''
 - description: URL to the source code repository hosting your WebSphere Liberty application
-    (e.g. https://github.com/sebastianfaulhaber/openshift-v3-showcase.git)
   name: SOURCE_REPOSITORY_URL
-  value: https://github.com/BoZhaoUTSC/frontend.git
+  value: http://BoZhaoUTSC@52.233.32.176:7990/scm/oc/frontend.git
   required: true
 - description: Git branch/tag reference.
   name: SOURCE_REPOSITORY_REF
