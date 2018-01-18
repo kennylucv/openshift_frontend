@@ -2,13 +2,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }    from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { DataTableModule } from "angular2-datatable";
 import { CommonModule } from '@angular/common';
 
-// used to create fake backend
-//import { fakeBackendProvider } from './_helpers/index';
-//import { MockBackend, MockConnection } from '@angular/http/testing';
-//import { BaseRequestOptions } from '@angular/http';
 
 import { AppComponent }  from './app.component';
 import { routing }        from './app.routing';
@@ -28,7 +23,6 @@ import { FooterComponent } from './footer/footer.component';
         FormsModule,
         HttpModule,
         CommonModule,
-        DataTableModule,
         routing,
     ],
     declarations: [
