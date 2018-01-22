@@ -9,8 +9,11 @@ RUN mkdir /dist
 RUN chmod 777 /dist
 COPY dist/ /dist/
 
+
 EXPOSE 9000
 
 # start nginx
-RUN chmod 777 -R /var/cache/
+RUN chmod 777 -R /var/
+RUN touch /var/run/nginx.pid
+RUN chmod 777 /var/run/nginx.pid
 CMD /usr/sbin/nginx
