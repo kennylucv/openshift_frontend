@@ -6,8 +6,6 @@ COPY nginx.conf /etc/nginx/
 
 COPY dist/ /dist/
 
-COPY health.sh /health/
-
 EXPOSE 9000
 
 CMD /usr/sbin/nginx
