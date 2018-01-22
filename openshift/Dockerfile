@@ -1,11 +1,14 @@
+# run-time container using nginx
 FROM nginx:1.12
 
-RUN mkdir /dist /health
-
+# overwrite nginx dedefault configurations
 COPY nginx.conf /etc/nginx/
 
+# copy and store Angular distribution files
+RUN mkdir /dist
 COPY dist/ /dist/
 
 EXPOSE 9000
 
+# start nginx
 CMD /usr/sbin/nginx
