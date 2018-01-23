@@ -106,7 +106,7 @@ objects:
     ports:
     - name: 9000-tcp
       protocol: TCP
-      port: 4200
+      port: 9000
       targetPort: 9000
       nodePort: 0
     selector:
