@@ -68,7 +68,7 @@ objects:
         - name: "${APPLICATION_NAME}"
           image: "${APPLICATION_NAME}"
           ports:
-          - containerPort: 4200
+          - containerPort: 9000
             protocol: TCP
           env:
           - name: ENV
@@ -104,10 +104,10 @@ objects:
   apiVersion: v1
   spec:
     ports:
-    - name: 4200-tcp
+    - name: 9000-tcp
       protocol: TCP
       port: 4200
-      targetPort: 4200
+      targetPort: 9000
       nodePort: 0
     selector:
       deploymentConfig: "${APPLICATION_NAME}"
@@ -133,5 +133,5 @@ objects:
       name: "${APPLICATION_NAME}"
       weight: 100
     port:
-      targetPort: 4200-tcp
+      targetPort: 9000-tcp
     wildcardPolicy: None
