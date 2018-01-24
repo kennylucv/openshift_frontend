@@ -75,7 +75,7 @@ objects:
             value: dev
           volumeMounts:
             - name: backend-config
-              mountPath: "/etc/nginx/sites-enabled"
+              mountPath: "/etc/nginx/sites-enabled/config-maps"
         volumes:
         - name: backend-config
           configMap:
