@@ -74,12 +74,12 @@ objects:
           - name: ENV
             value: dev
           volumeMounts:
-            - name: backend-properties
+            - name: backend-config
               mountPath: "/etc/nginx/sites-enabled"
         volumes:
-        - name: backend-properties
+        - name: backend-config
           configMap:
-            name: backend-properties
+            name: backend-config
 - kind: BuildConfig
   apiVersion: v1
   metadata:
