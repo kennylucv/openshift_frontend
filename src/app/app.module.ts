@@ -16,6 +16,7 @@ import { LoginComponent } from './login/index';
 import { RegisterComponent } from './register/index';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { GreetingComponent } from './greeting/greeting.component';
 
 @NgModule({
     imports: [
@@ -32,7 +33,8 @@ import { FooterComponent } from './footer/footer.component';
         LoginComponent,
         RegisterComponent,
         HeaderComponent,
-        FooterComponent
+        FooterComponent,
+        GreetingComponent
     ],
     providers: [
         AuthGuard,
