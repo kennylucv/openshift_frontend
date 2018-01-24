@@ -16,7 +16,7 @@ RUN git config --global user.email "bodotzhao@gmail.com"
 
 RUN git clone http://BoZhaoUTSC:1@52.233.32.176:7990/scm/oc/frontend-dist.git
 RUN cp -r dist/ frontend-dist/
-RUN cp openshift/* frontend-dist/
+RUN cp -r openshift/* frontend-dist/
 
 WORKDIR frontend-dist
 RUN git add .
